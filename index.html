@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muscle Training website</title>
+   <link rel="stylesheet" href="style.css">
+   <h1 align="center">Muscle Training website</h1>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="gym background video.mp4" type="video/mp4">
+      </video>
+      <table align="center">
+         <form>
+            <tr>
+                <th>muscle do you wanna train :</th>
+                <td><input type="text" id="query"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="submit" id="submit" </td>
+            </tr>
+          </form>
+        </table> 
+        <br><br><br>
+        <div class="box">
+            <h4>
+            <b>muscle :</b><span id="muscle"></span><br><br>    
+        <b>difficulty :</b><span id="difficulty"></span><br><br>
+        <b>equipment :</b><span id="equipment"></span><br><br>
+        <b>instructions :</b><span id="instructions"></span><br><br>
+        <b>type :</b><span id="type"></span><br><br>
+        </h4>
+        </div>
+        
+</body>
+<script src="exercise.js"></script>
+</html>

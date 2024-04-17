@@ -1,0 +1,34 @@
+.box{
+color: rgb(231, 236, 245);
+margin: auto;
+width: 90%;
+height: 80%;
+padding: 10px;
+border-style: inset black;
+background-color:hsla(0, 0%, 9%, 0.479);
+}
+
+#myVideo {
+  position: fixed;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+}
+
+h1{
+  color: white;
+  font-style: italic;
+}
+
+th{
+  color: aliceblue;
+  font-style: italic;
+}
+h4{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
